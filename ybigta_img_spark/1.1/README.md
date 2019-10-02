@@ -1,9 +1,10 @@
-# Ubuntu 18.04
-
+# etture/ybigta_img_spark:1.1
+OS: Ubuntu 18.04
 ## Installed
 - Anaconda (Python 3.7.4)
 - JDK8
-- Scala
+- Scala (2.11.12)
+- Py4J (0.10.8.1)
 - Hadoop (2.9.0)
 - Spark (2.3.4)
 - Hive (2.3.4)
