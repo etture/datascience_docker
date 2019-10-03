@@ -1,0 +1,16 @@
+[program:program_name]
+command=command_to_execute
+autostart=true
+autorestart=true
+stderr_logfile=/path_to/error.log
+stdout_logfile=/path_to/output.log
+
+[supervisord]
+
+[supervisorctl]
+
+[inet_http_server]
+port = *:9001
+
+[rpcinterface:supervisor]
+supervisor.rpcinterface_factory = supervisor.rpcinterface:make_main_rpcinterface
