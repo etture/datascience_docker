@@ -1,6 +1,8 @@
 # datascience_docker
 Docker settings (Dockerfile etc.) for data science
 
+Default port open for Jupyter/PySpark access is 8123
+
 ## Latest images
 - `etture/ybigta_img_python:1.2`: basic Python image with Anaconda
 - `etture/ybigta_img_hadoop:1.2`: image with Hadoop
@@ -27,7 +29,7 @@ Docker settings (Dockerfile etc.) for data science
 ## starterpack.sh
 - Bash Script to run after initializing Cloud instance
     - AWS EC2, GCP Compute Engine, etc...
-- Install Docker, set up basic userful aliases
+- Install Docker, set up basic useful aliases
 - To Run:
     - configure chmod: `sudo chmod 774 starterpack.sh`
     - run script: `./starterpack.sh`
