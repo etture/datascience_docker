@@ -20,3 +20,5 @@ echo alias ybigta-spark="docker exec -it ybigta-spark /bin/bash" >> ~/.bash_alia
 echo alias ybigta-python="docker exec -it ybigta-python /bin/bash" >> ~/.bash_aliases
 
 echo force_color_prompt=yes >> ~/.bashrc
+
+source ~/.bashrc
