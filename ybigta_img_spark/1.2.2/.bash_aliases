@@ -13,4 +13,4 @@ alias hadoop-format="$HADOOP_HOME/bin/hdfs namenode -format"
 alias hadoop-start="$HADOOP_HOME/sbin/start-dfs.sh; $HADOOP_HOME/sbin/start-yarn.sh"
 alias hadoop-stop="$HADOOP_HOME/sbin/stop-yarn.sh; $HADOOP_HOME/sbin/stop-dfs.sh"
 
-alias hive-metastore="/root/hive/bin/hive --service metastore &"
+alias hive-metastore="cd /root/hive; ./bin/hive --service metastore &"
