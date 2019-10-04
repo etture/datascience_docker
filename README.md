@@ -21,6 +21,6 @@ Docker settings (Dockerfile etc.) for data science
 - Run: `sudo docker run -d -ti -p 8123:8123 --name=ybigta-python etture/ybigta_img_python:1.2 /bin/bash`
 - Exec: `sudo docker exec -ti ybigta-python /bin/bash`
 
-## Bash Script to run after initializing Cloud instance (AWS EC2, GCP Compute Engine, etc...)
+## Bash Script to run after initializing Cloud instance <br>(AWS EC2, GCP Compute Engine, etc...)
 - `sudo chmod 774 starterpack.sh`
 - `./starterpack.sh`
