@@ -22,5 +22,5 @@ Docker settings (Dockerfile etc.) for data science
 - Exec: `sudo docker exec -ti ybigta-python /bin/bash`
 
 ## Bash Script to run after initializing Cloud instance (AWS EC2, GCP Compute Engine, etc...)
-- `sudo chmod starterpack.sh`
+- `sudo chmod 774 starterpack.sh`
 - `./starterpack.sh`
