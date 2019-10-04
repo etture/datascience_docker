@@ -8,8 +8,8 @@ Docker settings (Dockerfile etc.) for data science
 
 ### [etture/ybigta_img_python:1.2](https://github.com/etture/datascience_docker/tree/master/ybigta_img_python/1.2)
 - Pull: `sudo docker pull etture/ybigta_img_python:1.2`
-- Run: `sudo docker run -d -ti -p 8123:8123 --name=ybigta-python etture/ybigta_img_python:1.2 /bin/bash`
-- Exec: `sudo docker exec -ti ybigta-python /bin/bash`
+- Run: `sudo docker run -d -it -p 8123:8123 --name=ybigta-python etture/ybigta_img_python:1.2 /bin/bash`
+- Exec: `sudo docker exec -it ybigta-python /bin/bash`
 
 ### [etture/ybigta_img_hadoop:1.2](https://github.com/etture/datascience_docker/tree/master/ybigta_img_hadoop/1.2)
 - Pull: `sudo docker pull etture/ybigta_img_hadoop:1.2`
