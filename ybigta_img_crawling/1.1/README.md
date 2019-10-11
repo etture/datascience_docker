@@ -8,12 +8,13 @@ OS: Ubuntu 18.04
 - Chrome
 - Selenium
 - KoNLPy
+- JDK8
 
 ## To run: 
 - Install Docker
 - Instructions:
-    - Pull image: `docker pull etture/ybigta_img_crawling:1.0`
-    - Start container: `docker run -d -it -p 8123:8123 --name crawling etture/ybigta_img_crawling:1.0 /bin/bash`
+    - Pull image: `docker pull etture/ybigta_img_crawling:1.1`
+    - Start container: `docker run -d -it -p 8123:8123 --name crawling etture/ybigta_img_crawling:1.1 /bin/bash`
     - Access container: `docker exec -it crawling /bin/bash`
     - Exit container: `ctrl-p ctrl-q`
 
