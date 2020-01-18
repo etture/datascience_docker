@@ -16,7 +16,7 @@ OS: Ubuntu 18.04
 - Install Docker
 - Instructions:
     - Pull image: `docker pull etture/ybigta_img_spark:1.2.2`
-    - Start container: `docker run -d -it -p 8123:8123 --name=ybigta-spark etture/ybigta_img_spark:1.2.2 /bin/bash`
+    - Start container: `docker run -d -it -p 8123:8123 -p 4040:4040 --name=ybigta-spark etture/ybigta_img_spark:1.2.2 /bin/bash`
     - Access container: `docker exec -it ybigta-spark /bin/bash`
     - Exit container: `ctrl-p ctrl-q`
 
