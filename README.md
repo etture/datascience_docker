@@ -22,6 +22,12 @@ Default port open for Jupyter/PySpark access is 8123
 - Run: `sudo docker run -d -it -p 8123:8123 --name=ybigta-python etture/ybigta_img_python:1.2 /bin/bash`
 - Exec: `sudo docker exec -it ybigta-python /bin/bash`
 
+### [etture/ybigta_img_crawling:1.1](https://github.com/etture/datascience_docker/tree/master/ybigta_img_crawling/1.1)
+-  Size: 5.14 GB
+- Pull: `sudo docker pull etture/ybigta_img_crawling:1.1`
+- Run: `sudo docker run -d -it -p 8123:8123 --name=ybigta-crawling etture/ybigta_img_crawling:1.1 /bin/bash`
+- Exec: `sudo docker exec -it ybigta-crawling /bin/bash`
+
 ### [etture/ybigta_img_hadoop:1.2](https://github.com/etture/datascience_docker/tree/master/ybigta_img_hadoop/1.2)
 - Size: 6.68 GB
 - Pull: `sudo docker pull etture/ybigta_img_hadoop:1.2`
